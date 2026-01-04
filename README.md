@@ -1,7 +1,6 @@
-SciNexus is an open-source, work-in-progress project for exploring research landscapes using PubMed data.
-It combines semantic filtering with co-authorship network analysis to surface potential domain experts, lab communities, and collaboration patterns.
+The idea is simple: PubMed searches are powerful, but they often rely on exact keywords.
+SciNexus uses an LLM to broaden PubMed searches beyond exact terms and then connects the results using co-authorship networks to explore who is working with whom, where collaboration hubs form, and how research communities organize around a topic.
+The tool can be used in a global or location-specific way and is meant for exploration, not definitive rankings.
 
-This is a fun, ongoing side project - not a finished product. Many limitations exist (keyword sensitivity, author disambiguation, metadata gaps), and the goal is to iteratively improve and fix these over time.
-
-Built for exploration, learning, and hypothesis generation.
-Contributions, ideas, and critiques are very welcome.
+I’ll keep iterating to improve search recall, affiliation handling, and network exploration.
+Feedback and ideas are welcome.

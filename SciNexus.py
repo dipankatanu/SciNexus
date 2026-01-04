@@ -162,6 +162,6 @@ class SciNexusUniversalAuditor:
         plt.close()
 
 # --- RUN ---
-engine = SciNexusUniversalAuditor(email="youremail@example.com")
+engine = SciNexusUniversalAuditor(email="youremail@example.com") # EMAIL IS REQUOIRED FOR PUBMED LOGIN
 engine.run_discovery(topic="KRAS", location="Ireland")
 
